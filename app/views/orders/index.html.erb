@@ -1,4 +1,4 @@
-<% if @orders.nil? %>
+<% if !@orders.any? %>
   <%="No Orders" %>
 <% else %>
   <h2>Open Orders</h2>
